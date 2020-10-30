@@ -1,0 +1,29 @@
+commit 15eb8b6a1bc348f43fc7b741d7c80c9328003b71
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Sat Oct 31 00:30:27 2020 +1100
+
+    Initial commit, created all needed html pages and a style sheet
+
+commit 7fd0806889bcd886ec9988e7db34eb08601061e0
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Tue Oct 27 19:09:36 2020 +1100
+
+    Adding feature2.md
+
+commit 0395da371ab39a23888917c7ffd913887e9d2058
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Tue Oct 27 19:13:51 2020 +1100
+
+    Added a line to readme.md
+
+commit a4c2d991660fddd814ac7c5bf9c0e9d1cea34474
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Tue Oct 27 19:03:47 2020 +1100
+
+    adding feature1.md
+
+commit 742a29deb5a1da70329eedb4727c5ca2d71024e4
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Tue Oct 27 19:00:16 2020 +1100
+
+    Initial commit with README
