@@ -29,7 +29,7 @@ body {
   }
   
   .navbar a.active {
-    background-color: #BDBDBD;
+    background-color: white;
     color: black;
   }
   
