@@ -13,9 +13,11 @@ body {
   }
   
   .navbar a {
-    display: flex;
-    flex-direction: column-reverse;
+    float: left;
+    display: block;
     color: #AF601A;
+    text-align: center;
+    padding: 22px 24px;
     text-decoration: none;
     font-size: 22px;
   }

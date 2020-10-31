@@ -1,3 +1,33 @@
+commit 4cd20857075981d4cb937ed2bc586b20d7e6079c
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Sun Nov 1 03:40:39 2020 +1100
+
+    Installed a google font into my css, did some colour correction on the navbar and added a transitional color change when hovering over the nav buttons.
+
+commit 245b75af33e360dd194492f8bb44929100505f24
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Sun Nov 1 03:02:07 2020 +1100
+
+    Small problem was actually big problem that created more problems. Completely rebuilt the nav bar using a more modern tutorial. It works now
+
+commit 9974fbf31f22e10b34e18fc24b5e4d1e12ffaacc
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Sun Nov 1 01:48:59 2020 +1100
+
+    Bug fixed. I needed to give my icon class a height limit
+
+commit aad343563e0c335e74c09f6306f261b0e2443268
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Sun Nov 1 01:30:28 2020 +1100
+
+    The javascript actually worked. Wowie. My navbar now changes into a dropdown button when small enough. Small problem where the two boxes that make the navbar seem to missalign themselves when srunk.
+
+commit bd72b2ad849d98e06d39d517413d0b3949f03186
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Sun Nov 1 01:19:44 2020 +1100
+
+    Began to code a media breakpoint for my site. Also attempting to add a piece of javascript that causes my navbar to change when shrunk. A little broken right now.
+
 commit e494dd4f05807050a780a1c0e4048f4c3202cf79
 Author: Joey S <gcam022005@coderacademy.edu.au>
 Date:   Sun Nov 1 00:51:55 2020 +1100
