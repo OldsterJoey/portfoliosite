@@ -1,14 +1,38 @@
 .navbar {
-    background-color: #B3B6B7;
+    background-color:#78909C;
     overflow: hidden;
 }
 
 .navbar a {
     float: left;
     display: block;
-    color: #85C1E9;
+    color:#AF601A;
     text-align: center;
     padding: 22px 22px;
     text-decoration: none;
     font-size: 22px;  
+}
+
+.active {
+    background-color:#BDBDBD;
+    color: white;  
+}
+
+.navbar .icon {
+    display: none;
+}
+
+.navbar a:hover {
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {
+        display: none;
+    }
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
 }

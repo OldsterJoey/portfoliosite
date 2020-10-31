@@ -1,29 +1,23 @@
-commit 15eb8b6a1bc348f43fc7b741d7c80c9328003b71
+commit e494dd4f05807050a780a1c0e4048f4c3202cf79
 Author: Joey S <gcam022005@coderacademy.edu.au>
-Date:   Sat Oct 31 00:30:27 2020 +1100
+Date:   Sun Nov 1 00:51:55 2020 +1100
 
-    Initial commit, created all needed html pages and a style sheet
+    Began my navbar with some basic css, aligning the text and changing the bars colours.
 
-commit 7fd0806889bcd886ec9988e7db34eb08601061e0
+commit 243364cce58f0b81236b63850da151f181215322
 Author: Joey S <gcam022005@coderacademy.edu.au>
-Date:   Tue Oct 27 19:09:36 2020 +1100
+Date:   Sun Nov 1 00:30:10 2020 +1100
 
-    Adding feature2.md
+    Starting the process of creating a navbar for all pages except the home menu. Added basic hyperlinks to each page
 
-commit 0395da371ab39a23888917c7ffd913887e9d2058
+commit 3dad873d19faeba55a8aa406eb4656b7d2cf43be
 Author: Joey S <gcam022005@coderacademy.edu.au>
-Date:   Tue Oct 27 19:13:51 2020 +1100
+Date:   Sat Oct 31 00:51:47 2020 +1100
 
-    Added a line to readme.md
+    Gave my html pages titles and linked them to my css style sheet.
 
-commit a4c2d991660fddd814ac7c5bf9c0e9d1cea34474
+commit e01625a79f3edbdf85296f00925a219d079eb443
 Author: Joey S <gcam022005@coderacademy.edu.au>
-Date:   Tue Oct 27 19:03:47 2020 +1100
+Date:   Sat Oct 31 00:35:08 2020 +1100
 
-    adding feature1.md
-
-commit 742a29deb5a1da70329eedb4727c5ca2d71024e4
-Author: Joey S <gcam022005@coderacademy.edu.au>
-Date:   Tue Oct 27 19:00:16 2020 +1100
-
-    Initial commit with README
+    Initial commit, created necessary html files and a blank style sheet
