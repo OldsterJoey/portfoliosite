@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap'); /*This links to a google font, allowing me to use it on my webpage*/
+
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
   }
   
+/*Below is the CSS created specifically for my navbar and all related classes*/
+
   .navbar {
     overflow: hidden;
     background-color: #78909C;
@@ -13,25 +17,28 @@ body {
     display: block;
     color: #AF601A;
     text-align: center;
-    padding: 14px 16px;
+    padding: 22px 24px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 22px;
   }
   
-  .navbar a:hover {
-    background-color:#ECF0F1;
+  .navbar a:hover { /*This allows me to have my navigation buttons colors change when hovered over, I gave it a transition to smoothen it out*/
+    background-color: white;
     color: black;
+    transition: 0.5s
   }
   
   .navbar a.active {
     background-color: #BDBDBD;
-    color: white;
+    color: black;
   }
   
   .navbar .icon {
     display: none;
   }
   
+/*Below is my CSS for displaying the website appropriately no matter what size the screen is. I have inserted some javascript I found online to make a phone-like navigation button. Not entirely sure how it works yet, but it definitely works.*/
+
   @media screen and (max-width: 600px) {
     .navbar a:not(:first-child) {display: none;}
     .navbar a.icon {
