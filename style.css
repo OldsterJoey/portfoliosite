@@ -8,14 +8,14 @@
     display: block;
     color:#AF601A;
     text-align: center;
-    padding: 22px 22px;
+    padding: 16px 16px;
     text-decoration: none;
     font-size: 22px;  
 }
 
 .active {
-    background-color:#BDBDBD;
-    color: white;  
+    background-color: #BDBDBD ;
+    color: white;
 }
 
 .navbar .icon {
@@ -34,6 +34,7 @@
     .navbar a.icon {
         float: right;
         display: block;
+        height: 3px;
     }
 }
 
