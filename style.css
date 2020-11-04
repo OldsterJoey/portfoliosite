@@ -79,3 +79,7 @@ body {
   align-self: flex-start;
   margin-left: 200px;
 }
+
+.hometext {
+  align-self: flex-end
+}
