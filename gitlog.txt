@@ -1,3 +1,21 @@
+commit ac6db959c29a0835b39ed6163cb308735a10e945
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Sun Nov 1 04:54:16 2020 +1100
+
+    Flexbox probably not as appropriate as I thought for the nav bar
+
+commit bcb15e7add5902cca9da9b227dde62a75379558c
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Sun Nov 1 04:29:05 2020 +1100
+
+    Flexbox does not seem to want to work for some reason. It will not let me turn the columns into rows
+
+commit a897448e8786ce0d117df0d7d917b5c29342e893
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Sun Nov 1 04:12:46 2020 +1100
+
+    Want to attempt to transition my navbar to use flexbox, but scared of the results. This branch is so I don't destroy anything
+
 commit 4cd20857075981d4cb937ed2bc586b20d7e6079c
 Author: Joey S <gcam022005@coderacademy.edu.au>
 Date:   Sun Nov 1 03:40:39 2020 +1100
