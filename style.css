@@ -80,6 +80,6 @@ body {
   margin-left: 200px;
 }
 
-.hometext {
-  align-self: flex-end
+.background a {
+  align-self: flex-end;
 }
