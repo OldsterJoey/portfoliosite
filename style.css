@@ -67,10 +67,15 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     background-image: url("https://images.unsplash.com/photo-1553984840-b8cbc34f5215?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
 
+.roundhead {
+  height:50%;
+  width: 50%;
+  border-radius: 50%;
+}
