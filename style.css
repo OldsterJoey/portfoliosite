@@ -78,12 +78,15 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 200px 200px 200px;
-  background-color: blue
+  justify-items: center;
+  align-items: center;
+  background-color: blue;
 }
 
 .roundhead {
   border-radius: 50%;
   grid-column-start: 1;
+  grid-row-start: 2;
   width: 100%;
   height: auto;
 }
@@ -93,7 +96,7 @@ body {
   list-style-type: none;
   grid-column-start: 2;
   grid-row-start: 2;
-  padding-left: 150px;
+  text-align: center;
 }
 
 .link {
@@ -116,10 +119,19 @@ header {
 @media screen and (max-width: 800px) {
   .container {
     width: 70%;
+    height: 120%;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-rows: 1fr 1fr;
   }
   .roundhead {
     grid-column-start: 2;
+    grid-row-start: 1;
+  }
+  .link {
+    font-size: 50px;
+  }
+  .homelinks {
+    grid-row-start: 2;
+    padding-right: 20px;
   }
 }
