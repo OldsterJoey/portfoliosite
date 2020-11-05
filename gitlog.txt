@@ -1,3 +1,69 @@
+commit 532480670f61411e1cb85b009b56ad5eaf3f5143
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Thu Nov 5 16:19:10 2020 +1100
+
+    Successfully completed the formatting of my image and text on my homepage's css grid. Unfortunately somewhere along the way I've created some white space at the bottom of my page. Must investigate.
+
+commit c170f265d9e2ec0298ae306973608abfe89c1285
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Thu Nov 5 13:16:59 2020 +1100
+
+    successful start to creating my media query for my homepage. Image aligns exactly the way I want, now I have to figure out how to make the links do the same.
+
+commit e72d0871c6905daa80daa151533dc36a4ed8e32b
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Thu Nov 5 11:43:41 2020 +1100
+
+    Gave my homepage a header and footer, still have to play around with their positioning.
+
+commit 43e86c8971376944e6aa806809dab3f23b9b6c81
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Thu Nov 5 11:04:18 2020 +1100
+
+    Successfully nested my css grid into my flex box (after way too much time) and my home page is starting to look like my wireframe. Quick tip - don't mess around with padding. It'll haunt you.
+
+commit 80dc73e16ac7e5b84cd8fc7d7c0abf36f530df65
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Thu Nov 5 01:20:23 2020 +1100
+
+    created a css grid for the image and it should be working. However, it is not. Will investigate.
+
+commit b6ff0c095bef2f4e28ef390157a24a72aafef5f2
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Wed Nov 4 18:00:20 2020 +1100
+
+    Added a header to my home page, struggling to get homepage links aligned the way I want, going to start experimenting with nesting flexboxes within eachother.
+
+commit b48dffbb496e250a35774a53c497d3efc41f7def
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Wed Nov 4 16:03:58 2020 +1100
+
+    Added some basic links to my homepage, next step is to make them work like my wireframe suggests by using flexbox
+
+commit 1962fe22a717b5bf14d8c0d96c0cce37af9476a6
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Wed Nov 4 15:57:17 2020 +1100
+
+    Fixed the problem and resized the image of myself to be much smaller for functionality purposes. Also gave the image a margin
+
+commit e32e874fc999c565d7111773749b9fe1bc6b690b
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Wed Nov 4 15:36:34 2020 +1100
+
+    Began to create my homepage. Added a round image of myself, but having trouble stopping it from stretching along with the flexbox
+
+commit f20a61743dd9f3400137c132d2b551ae67ca9e5c
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Wed Nov 4 14:53:28 2020 +1100
+
+    Gave each page a background using flexbox. May need to be tweaked later on
+
+commit 0eff854e7362c003d39785499ae09b8b22fe9c38
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Wed Nov 4 13:31:59 2020 +1100
+
+    Added a nomalize style sheet to my website
+
 commit ac6db959c29a0835b39ed6163cb308735a10e945
 Author: Joey S <gcam022005@coderacademy.edu.au>
 Date:   Sun Nov 1 04:54:16 2020 +1100
