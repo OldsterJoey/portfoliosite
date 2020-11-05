@@ -37,7 +37,7 @@ body {
     display: none;
   }
   
-/*Below is my CSS for displaying the website appropriately no matter what size the screen is. I have inserted some javascript I found online to make a phone-like navigation button. Not entirely sure how it works yet, but it definitely works.*/
+/*Below is my CSS for displaying the navbar appropriately no matter what size the screen is. I have inserted some javascript I found online to make a phone-like navigation button. Not entirely sure how it works yet, but it definitely works.*/
 
   @media screen and (max-width: 600px) {
     .navbar a:not(:first-child) {display: none;}
@@ -78,11 +78,14 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 200px 200px 200px;
+  background-color: blue
 }
 
 .roundhead {
   border-radius: 50%;
   grid-column-start: 1;
+  width: 100%;
+  height: auto;
 }
 
 .homelinks {
@@ -96,8 +99,27 @@ body {
 .link {
   text-decoration: none;
   font-size: 50px;
+  background-color: #78909C;
+  color: #AF601A;
+}
+
+.link:hover {
+background-color: white;
+color: black;
+transition: 0.5s
 }
 
 header {
   font-size: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 70%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+  }
+  .roundhead {
+    grid-column-start: 2;
+  }
 }
