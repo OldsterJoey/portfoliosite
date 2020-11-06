@@ -4,6 +4,10 @@ body {
     margin: 0;
     font-family: 'IBM Plex Sans', sans-serif;
   }
+
+header {
+  color: #AF601A;
+  }
   
 /*Below is the CSS created specifically for my navbar and all related classes*/
 
@@ -67,6 +71,7 @@ body {
 .background {
   width: 100%;
   height: 100vh;
+  min-height: 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -110,6 +115,7 @@ body {
   font-size: 50px;
   background-color: #78909C;
   color: #AF601A;
+  border-radius: 20%;
 }
 
 .link:hover {
@@ -120,6 +126,19 @@ transition: 0.5s
 
 header {
   font-size: 30px;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 50px;
+}
+
+.indexheader {
+  display: flex;
+  justify-content: center;
+  align-item: center;
 }
 
 /*Below is my media query designed specifically for my home page's CSS grid container. Also took a lot of tweaking, and was my first real delve into formatting my own media queries. Very proud at it's accuracy to my wireframe.*/
@@ -171,4 +190,15 @@ header {
 .articleitem {
   min-width: 80%;
   margin: 10px;
+}
+
+.background h1 {
+  font-size: 50px;
+  color: #AF601A;
+}
+
+@media screen and (max-width: 800px) {
+  .article {
+    display: none;
+  }
 }
