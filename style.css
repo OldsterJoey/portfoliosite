@@ -14,6 +14,9 @@ header {
   .navbar {
     overflow: hidden;
     background-color: #78909C;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
   }
   
   .navbar a {
@@ -168,11 +171,13 @@ header {
 
 .sidebar {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   width: 40%;
   height: 100%;
+  margin-top: 30px;
 }
 
 .article {
@@ -187,18 +192,11 @@ header {
   flex-direction: column;
 }
 
-.articleitem {
-  min-width: 80%;
-  margin: 10px;
+.sidebaritem {
+  min-width: 70%;
 }
 
 .background h1 {
   font-size: 50px;
   color: #AF601A;
-}
-
-@media screen and (max-width: 800px) {
-  .article {
-    display: none;
-  }
 }
