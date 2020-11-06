@@ -68,13 +68,14 @@ body {
   width: 100%;
   height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   background-image: url("https://images.unsplash.com/photo-1553984840-b8cbc34f5215?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  overflow: auto;
 }
 
 /*Below is my container designed specifically to nest in my flex box background on my homepage, and all of it's children. After realising you can nest flex box and css grid together I thought it would be the better route for the format of my homepage. It's been constantly tweaked but I feel much more comfortable with it now*/
@@ -144,14 +145,30 @@ header {
 
 }
 
+/* Below are my basic containers to format my article styled pages, along with their children */
+
 .sidebar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   width: 40%;
   height: 100%;
-  background-color: blue;
 }
 
 .article {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   width: 60%;
   height: 100%;
-  background-color: blueviolet;
+}
+
+.flexcolumn {                   /* This is used to change my backgrounds flex direction to column style, specifically for used with my homepage */
+  flex-direction: column;
+}
+
+.articleitem {
+  min-width: 80%;
+  margin: 10px;
 }
