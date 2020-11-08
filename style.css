@@ -195,7 +195,8 @@ header {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block .8rem;
+  display: block;
+  border-radius: .8rem;
 }
 
 .ainfo {
@@ -218,10 +219,24 @@ header {
   border-radius: .8rem;
 }
 
-.flexcolumn {                   /* This is used to change my backgrounds flex direction to column style, specifically for used with my homepage */
-  flex-direction: column;
+.blogdate span {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: .5rem 0;
 }
 
-@media screen and (max-width: 800px) {
-  
+.blogtitle {
+  font-size: 2.5rem;
+  margin: 1.5 rem 0 2rem;
+  text-transform: uppercase;
+}
+
+.blogtext {
+  margin-bottom: 3rem;
+  font-size: 1.4rem;
+}
+
+.flexcolumn {                   /* This is used to change my backgrounds flex direction to column style, specifically for used with my homepage */
+  flex-direction: column;
 }
