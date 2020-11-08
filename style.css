@@ -15,7 +15,6 @@ header {
     overflow: hidden;
     background-color: #78909C;
     position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
     width: 100%;
   }
   
@@ -136,12 +135,13 @@ header {
   justify-content: center;
   align-content: center;
   margin-top: 50px;
+  text-align: center;
 }
 
 .indexheader {
   display: flex;
   justify-content: center;
-  align-item: center;
+  align-items: center;
 }
 
 /*Below is my media query designed specifically for my home page's CSS grid container. Also took a lot of tweaking, and was my first real delve into formatting my own media queries. Very proud at it's accuracy to my wireframe.*/
@@ -178,14 +178,19 @@ header {
   width: 40%;
   height: 100%;
   margin-top: 30px;
+  background-color: blue;
 }
 
 .article {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   width: 60%;
   height: 100%;
+  background-color: red;
+  margin-top: 30px;
 }
 
 .flexcolumn {                   /* This is used to change my backgrounds flex direction to column style, specifically for used with my homepage */
@@ -199,4 +204,13 @@ header {
 .background h1 {
   font-size: 50px;
   color: #AF601A;
+}
+
+p {
+  margin: 30px;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  
 }
