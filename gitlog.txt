@@ -1,3 +1,63 @@
+commit 4ecb964b67f6ff98087dc959bfaab3e005eb8a46
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Sun Nov 8 19:18:45 2020 +1100
+
+    First media query went well, but I have now noticed a problem where the top of the page gets cut off the more minimised it is. Looked for quite a while but cannot find what's causing the problem. Next step is to find whats causing this.
+
+commit 2f8d569480a6deb0d783201b9c55121175dbcaa2
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Sun Nov 8 18:04:15 2020 +1100
+
+    format ready to go, next step is my media queries
+
+commit c6c465ac35a6dfff465d01767351615c440476af
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Sun Nov 8 17:33:17 2020 +1100
+
+    overhaul of article pages going very nicely, I have now set up an almost fully functional container for article or blog styled posts.
+
+commit 09ce86d12be11b308b5d24b0c1ca765d0cb396e7
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Sun Nov 8 15:20:23 2020 +1100
+
+    Going to attempt to overhaul my article pages to make them work more effectively
+
+commit 81a99077b3b3a0c3683e7b5b1dd4f25819393a92
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Sat Nov 7 00:33:23 2020 +1100
+
+    Trying to get my article flexboxes to be mobile friendly. Looks good full sized but when minimized i've run into a few bugs that make it very unreadable. My sidebar has it's own scrollwheel which shouldn't happen.
+
+commit 1f3d13a497e4a5161ec71279d48894efe06bf37f
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Sat Nov 7 00:03:51 2020 +1100
+
+    Minor formatting changes
+
+commit 96a4414c6da84d5dcbd54888111f3b8513f71d14
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Fri Nov 6 16:05:35 2020 +1100
+
+    Article format done and ready for use. Also added an overflow function to my background to get rid of that pesky white space I keep seeing.
+
+commit beaf6b386d4df6be7a810a126607a25453f580f1
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Fri Nov 6 14:37:18 2020 +1100
+
+    Ready to set up article styled pages
+
+commit bd40cb845110455852bc0f574c194445cf97dcff
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Fri Nov 6 10:31:58 2020 +1100
+
+    Initial remote commit
+
+commit 3d031e309737a86b9b0650625e6069f57f09928f
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Fri Nov 6 10:12:46 2020 +1100
+
+    Skeleton of site ready for deployment. Next bug to fix is the navbars positioning not being absolute and pushing down my background
+
 commit 532480670f61411e1cb85b009b56ad5eaf3f5143
 Author: Joey S <gcam022005@coderacademy.edu.au>
 Date:   Thu Nov 5 16:19:10 2020 +1100
