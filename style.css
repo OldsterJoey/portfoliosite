@@ -169,46 +169,57 @@ header {
 
 /* Below are my basic containers to format my article styled pages, along with their children */
 
-.sidebar {
+.acontainer {
+  width: 100%;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  width: 40%;
-  height: 100%;
-  margin-top: 30px;
   background-color: blue;
+  padding: 0 1.5rem;
 }
 
-.article {
+.acontainer img {
+  width: 100%
+}
+
+.acontainerimg {
+  min-width: 35rem;
+  max-width: 35rem;
+  height: 30rem;
+  transform: translateX (-8rem);
+  position: relative;
+}
+
+.acontainerimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block .8rem;
+}
+
+.ainfo {
+  width: 100%;
+  max-width: 98rem;
+  padding: 5rem;
+  background-color: red;
+  box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2);
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  width: 60%;
+  border-radius: .8rem;
+}
+
+.ainfo img {
+  width: 100%;
   height: 100%;
-  background-color: red;
-  margin-top: 30px;
+  object-fit: cover;
+  display: block;
+  border-radius: .8rem;
 }
 
 .flexcolumn {                   /* This is used to change my backgrounds flex direction to column style, specifically for used with my homepage */
   flex-direction: column;
-}
-
-.sidebaritem {
-  min-width: 70%;
-}
-
-.background h1 {
-  font-size: 50px;
-  color: #AF601A;
-}
-
-p {
-  margin: 30px;
-  font-size: 50px;
 }
 
 @media screen and (max-width: 800px) {
