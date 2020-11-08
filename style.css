@@ -2,6 +2,8 @@
 
 body {
     margin: 0;
+    padding: 0;
+    overflow: hidden;
     font-family: 'IBM Plex Sans', sans-serif;
   }
 
@@ -14,7 +16,6 @@ header {
   .navbar {
     overflow: hidden;
     background-color: #78909C;
-    position: fixed; /* Set the navbar to fixed position */
     width: 100%;
   }
   
@@ -75,7 +76,7 @@ header {
   height: 100vh;
   min-height: 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-image: url("https://images.unsplash.com/photo-1553984840-b8cbc34f5215?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
@@ -175,7 +176,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: blue;
   padding: 0 1.5rem;
 }
 
@@ -203,7 +203,6 @@ header {
   width: 100%;
   max-width: 98rem;
   padding: 5rem;
-  background-color: red;
   box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2);
   display: flex;
   flex-direction: column;
@@ -235,6 +234,17 @@ header {
 .blogtext {
   margin-bottom: 3rem;
   font-size: 1.4rem;
+}
+
+@media screen and (max-width: 800px) {
+  .acontainer {
+    padding: 2.5rem;
+    flex-direction: column;
+  }
+  .acontainerimg {
+    min-width: 30rem;
+    max-width: 30rem;
+  }
 }
 
 .flexcolumn {                   /* This is used to change my backgrounds flex direction to column style, specifically for used with my homepage */
