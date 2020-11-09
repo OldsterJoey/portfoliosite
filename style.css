@@ -178,7 +178,7 @@ header {
   min-height: 100%;
 }
 
-.acontainerimg img {
+.acontainer img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -228,4 +228,12 @@ header {
 
 .flexcolumn {                   /* This is used to change my backgrounds flex direction to column style, specifically for used with my homepage */
   flex-direction: column;
+}
+
+.ccontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
