@@ -1,29 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap'); /*This links to a google font, allowing me to use it on my webpage*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 body {
     margin: 0;
     padding: 0;
     overflow: auto;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Anton', sans-serif;
   }
 
 header {
-  color: #AF601A;
+  color: #f15d22;
   }
   
 /*Below is the CSS created specifically for my navbar and all related classes*/
 
   .navbar {
     overflow: hidden;
-    background-color: #78909C;
+    background-color: #3e4b60;
     width: 100%;
-    position: absolute;
   }
   
   .navbar a {
     float: left;
     display: block;
-    color: #AF601A;
+    color: #f15d22;
     text-align: center;
     padding: 22px 24px;
     text-decoration: none;
@@ -107,7 +107,7 @@ header {
 }
 
 .homelinks {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Anton', sans-serif;
   list-style-type: none;
   grid-column-start: 2;
   grid-row-start: 2;
@@ -117,8 +117,8 @@ header {
 .link {
   text-decoration: none;
   font-size: 50px;
-  background-color: #78909C;
-  color: #AF601A;
+  background-color: #3e4b60;
+  color: #f15d22;
   border-radius: 20%;
 }
 
@@ -144,6 +144,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 /*Below is my media query designed specifically for my home page's CSS grid container. Also took a lot of tweaking, and was my first real delve into formatting my own media queries. Very proud at it's accuracy to my wireframe.*/
