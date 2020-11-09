@@ -92,7 +92,7 @@ header {
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   background-color: blue;
@@ -100,10 +100,15 @@ header {
 
 .homeimg {
   background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .roundhead {
   border-radius: 50%;
+  max-width: 90%;
+  height: auto;
 }
 
 .homelinks {
@@ -131,7 +136,7 @@ transition: 0.5s
 }
 
 header {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .projects {
@@ -149,10 +154,22 @@ header {
   text-align: center;
 }
 
-/*Below is my media query designed specifically for my home page's CSS grid container. Also took a lot of tweaking, and was my first real delve into formatting my own media queries. Very proud at it's accuracy to my wireframe.*/
+/*Below is my media query designed specifically for my home page's container. Also took a lot of tweaking, and was my first real delve into formatting my own media queries. Very proud at it's accuracy to my wireframe.*/
 
 @media screen and (max-width: 800px) {
-
+  .container {
+    padding: 0;
+    flex-direction: column;
+  }
+  header {
+    font-size: 15px;
+  }
+  .roundhead {
+    max-width: 70%;
+  }
+  .projects {
+    margin-top: 10px;
+  }
 }
 
 /* Below are my basic containers to format my article styled pages, along with their children */
