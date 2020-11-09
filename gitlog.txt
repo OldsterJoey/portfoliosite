@@ -1,3 +1,63 @@
+commit c79e885325d7c3ac1422129659b16e6db91bd1d2
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Tue Nov 10 01:23:20 2020 +1100
+
+    Homepage containers and breakpoints fully functional. Just needs a little refining.
+
+commit 2876bd0db0601d277f12ac28611ebdb69d227b9f
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Mon Nov 9 21:00:27 2020 +1100
+
+    Removed my css grid from my home page and replaced it with a similarly working flex box. Css grid was fun but as of now it was causing more problems than solutions
+
+commit 6d6187cf333619aaf62529be37b4d1bbbd1a4769
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Mon Nov 9 20:44:19 2020 +1100
+
+    Removed the background class from all elements. Background css is still there if needed. Going to attempt to create a working layout first then find out how to make an effective background afterwards
+
+commit 7bf59dfd8e9409f005097b7ee9a09b0fdf0c0b4b
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Mon Nov 9 19:11:19 2020 +1100
+
+    Made my social media images in my contacts working links. Also considering completely overhauling my background div to make something more universally functional.
+
+commit 004a2939c21e5e64de9f47c1bd0f7a64087ffc4d
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Mon Nov 9 18:36:02 2020 +1100
+
+    Gave my webpages a nicer font and a more contrasting colour palette
+
+commit 6b80399802dfbcf2e99d7d14100a5c857fe5be21
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Mon Nov 9 18:15:06 2020 +1100
+
+    Got rid off the background class on my about me and blog page until I can figure out whats causing the background bug. I also changed my bodies overflow to auto to keep my scroll wheel working.
+
+commit 966821567f2fb29e385a7eaa93afc10c3c2dbf26
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Mon Nov 9 15:49:32 2020 +1100
+
+    Narrowed the problem down to my background, most likely its overflow function or its height and width functions. Cannot figure it out so going to leave it for now. Next step is to get all content required for my site into my repository
+
+commit a6a5e607e2c6e1819dfc857af2497de0d4cb80bb
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Mon Nov 9 01:26:37 2020 +1100
+
+    Looks like when I give my acontainer a min-height it solves the problem, but causes even more problems when minimised. Must find out why
+
+commit bb354ee9d73027b89d81e446c6c78bbb779cc670
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Mon Nov 9 01:15:05 2020 +1100
+
+    Turns out I didn't solve the problem after all, still getting my content cut off. Refined my article images a little so they work better
+
+commit b2019e1276e1861148c6e14864f5bc4fb49fcd65
+Author: Joey S <gcam022005@coderacademy.edu.au>
+Date:   Mon Nov 9 00:47:16 2020 +1100
+
+    Fixed the problem by getting rid of my width and height settings on my article container.
+
 commit 4ecb964b67f6ff98087dc959bfaab3e005eb8a46
 Author: Joey S <gcam022005@coderacademy.edu.au>
 Date:   Sun Nov 8 19:18:45 2020 +1100
