@@ -256,9 +256,14 @@ header {
 }
 
 .ccontainer {
+  margin: 100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.ccontainer img {
+  margin: 50px;
 }
