@@ -84,7 +84,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  overflow: auto;
+  overflow: hidden;
 }
 
 /*Below is my container designed specifically to nest in my flex box background on my homepage, and all of it's children. After realising you can nest flex box and css grid together I thought it would be the better route for the format of my homepage. It's been constantly tweaked but I feel much more comfortable with it now*/
