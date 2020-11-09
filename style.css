@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: auto;
     font-family: 'IBM Plex Sans', sans-serif;
   }
 
@@ -17,6 +17,7 @@ header {
     overflow: hidden;
     background-color: #78909C;
     width: 100%;
+    position: absolute;
   }
   
   .navbar a {
