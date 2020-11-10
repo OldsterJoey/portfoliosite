@@ -219,6 +219,12 @@ and was my first real delve into formatting my own media queries. Very proud at 
   }
 }
 
+@media screen and (max-width: 500px) {
+  .pcontainer img {
+    width: 70%;
+  }
+}
+
 /* Below are my basic containers to format my blog styled pages, along with their children. 
 In this section I played around with the measurement format 'rem', which sizes elements based 
 on the font-size of the root element. I thought this would be the best choice just incase I wanted to tweak the text later on. */
