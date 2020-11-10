@@ -13,6 +13,16 @@ header { /*Generic options for my headers, so they all stay the same style*/
   font-size: 25px;
   text-shadow: 5px 5px black;
   }
+
+  /*Below is my background information. It has been a struggle to try and get it optimized for all screen sizes, and I've had consistent 
+problems with unwanted empty space. It's a constant work in progress*/
+
+html {
+  background-image: url("pawel-czerwinski-Pph9pFa9tM0-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
   
 /*Below is the CSS created specifically for my navbar and all related classes*/
 
@@ -73,16 +83,6 @@ tabs into a fa fa bars icon that reveal the tabs when clicked or touched. Not en
       text-align: left;
     }
   }
-
-/*Below is my background information. It has been a struggle to try and get it optimized for all screen sizes, and I've had consistent 
-problems with unwanted empty space. It's a constant work in progress*/
-
-html {
-  background-image: url("https://images.unsplash.com/photo-1604263710021-2ac5cd439907?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
 /*Below is my container designed specifically to nest in my flex box background on my homepage, and all of it's children. 
 I initially created a css grid nested within a flex box to get what I wanted from my homepage, however, the more I went down 
@@ -160,6 +160,9 @@ box-shadow: 2.5px 5px black;
 .pheader img {
   width: 40px;
   height: 40px;
+  position: relative;
+  right: -20px;
+  bottom: -5px;
 }
 
 .pcontainer {
@@ -169,8 +172,9 @@ box-shadow: 2.5px 5px black;
   flex-wrap: wrap;
 }
 
-/*I found that the images for my projects we're much more effective and controllable when given a strick height and width. 
+/*I found that the images for my projects we're much more effective and controllable when given a strict height and width. 
 This allows all the images to be the same size without any stretching, and makes my flex-wrap much more effective.*/
+
 .pcontainer img { 
   height: 300px;
   width: 400px;
@@ -180,7 +184,7 @@ This allows all the images to be the same size without any stretching, and makes
   box-shadow: 5px 10px #d3a625;
 }
 
-/*Below is my media query designed specifically for my home page's container. Also took a lot of tweaking, 
+/*Below is my media query designed specifically for my home page. Also took a lot of tweaking, 
 and was my first real delve into formatting my own media queries. Very proud at it's accuracy to my wireframe.*/
 
 @media screen and (max-width: 1000px) {
@@ -208,6 +212,9 @@ and was my first real delve into formatting my own media queries. Very proud at 
   }
   .link {
     font-size: 30px;
+  }
+  .pcontainer img {
+    margin: 30px;
   }
 }
 
@@ -297,4 +304,16 @@ on the font-size of the root element. I thought this would be the best choice ju
 
 .ccontainer img {
   margin: 50px;
+}
+
+.animate__animated.animate__rotateIn {
+  --animate-duration: 2s;
+}
+
+.animate__animated.animate__fadeInDown {
+  --animate-duration: 2s;
+}
+
+.animate__animated.animate__shakeY {
+  --animate-duration: 7s;
 }
