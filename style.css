@@ -72,8 +72,7 @@ header {
 
 /*Below is my background information. It has been a struggle to try and get it optimized for all screen sizes, and I've had consistent problems with unwanted empty space. It'll get there though im sure.*/
 
-.background {
-  height: 100vh;
+html {
   background-image: url("https://images.unsplash.com/photo-1553984840-b8cbc34f5215?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
   background-size: cover;
   background-repeat: no-repeat;
