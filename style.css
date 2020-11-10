@@ -192,7 +192,7 @@ and was my first real delve into formatting my own media queries. Very proud at 
     padding: 0;
     flex-direction: column;
   }
-  header {
+  indexheader {
     font-size: 15px;
   }
   .homeimg {
@@ -313,7 +313,89 @@ on the font-size of the root element. I thought this would be the best choice ju
   margin: 50px;
 }
 
-.animate__animated.animate__rotateIn {
+.bheader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bheader h1 {
+  position: relative;
+  right: 200px;
+}
+
+.bheader h2 {
+  position: relative;
+  left: 200px;
+}
+
+.bcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bcontainer img {
+  border-radius: 2%;
+  box-shadow: 5px 5px #d3a625;
+}
+
+.binfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 40%;
+  text-align: center;
+  margin: 50px;
+}
+
+.binfo h2 {
+  font-size: 30px;
+  color: #eeba30;
+  text-shadow: 3px 3px black;
+}
+
+.binfo p {
+  font-size: 20px;
+  color: #eeba30;
+}
+
+.binfo a {
+  font-size: 20px;
+  padding: 1%;
+  margin: 1%;
+}
+
+@media screen and (max-width: 800px) {
+  .bheader h1 {
+    right: 0;
+  }
+  .bheader h2 {
+    left: 0;
+    position: relative;
+    bottom: 30px;
+  }
+  .bcontainer img {
+    max-width: 50%;
+    position: relative;
+    bottom: 40px;
+  }
+  .bheader h2 {
+    left: 0;
+    position: relative;
+    bottom: 30px;
+  }
+  .binfo {
+    max-width: 100%;
+  }
+}
+
+.animate__animated.animate__fadeIn {
   --animate-duration: 2s;
 }
 
