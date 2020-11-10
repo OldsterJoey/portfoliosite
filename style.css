@@ -283,18 +283,22 @@ on the font-size of the root element. I thought this would be the best choice ju
   font-size: 1.4rem;
   color: #eeba30;
   text-shadow: 2px 2px black;
+  text-align: center;
 }
 
 /* Below is my media query specifically for my blog containers*/
 
 @media screen and (max-width: 800px) {
   .acontainer {
-    padding: 2.5rem;
+    padding: 1rem;
     flex-direction: column;
   }
   .acontainerimg {
     min-width: 30rem;
     max-width: 30rem;
+  }
+  .ainfo {
+    padding: 2rem;
   }
 }
 
