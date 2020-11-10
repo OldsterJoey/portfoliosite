@@ -193,6 +193,9 @@ header {
   .homeimg {
     margin: 0;
   }
+  .link {
+    font-size: 30px;
+  }
 }
 
 /* Below are my basic containers to format my article styled pages, along with their children */
