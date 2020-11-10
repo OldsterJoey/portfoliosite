@@ -179,7 +179,7 @@ header {
     font-size: 15px;
   }
   .roundhead {
-    max-width: 70%;
+    max-width: 50%;
   }
   .pheader {
     margin-top: 10px;
@@ -188,7 +188,10 @@ header {
     margin: 0;
   }
   .homelinks {
-    margin: 5%;
+    margin: 0;
+  }
+  .homeimg {
+    margin: 0;
   }
 }
 
