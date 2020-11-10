@@ -206,6 +206,7 @@ and was my first real delve into formatting my own media queries. Very proud at 
   }
   .homelinks {
     margin: 0;
+    margin-top: 30px;
   }
   .homeimg {
     margin: 0;
