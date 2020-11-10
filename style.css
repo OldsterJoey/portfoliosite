@@ -144,14 +144,15 @@ header {
 .pcontainer {
   display: flex;
   flex-direction: row;
-  justify-content: space between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .pcontainer img {
-  max-width: 30%;
-  height: auto;
-  margin: 1.33%;
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+  margin: 3%;
   border-radius: 5%;
 }
 
@@ -188,8 +189,6 @@ header {
     justify-content: center;
   }
   .pcontainer img {
-    max-width: 100%;
-    margin: 5%;
   }
 }
 
