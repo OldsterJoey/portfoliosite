@@ -73,18 +73,11 @@ header {
 /*Below is my background information. It has been a struggle to try and get it optimized for all screen sizes, and I've had consistent problems with unwanted empty space. It'll get there though im sure.*/
 
 .background {
-  width: 100%;
   height: 100vh;
-  min-height: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-image: url("https://images.unsplash.com/photo-1553984840-b8cbc34f5215?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  overflow: hidden;
 }
 
 /*Below is my container designed specifically to nest in my flex box background on my homepage, and all of it's children. After realising you can nest flex box and css grid together I thought it would be the better route for the format of my homepage. It's been constantly tweaked but I feel much more comfortable with it now*/
@@ -190,6 +183,13 @@ header {
   }
   .homelinks {
     margin: 0;
+  }
+  .pcontainer {
+    justify-content: center;
+  }
+  .pcontainer img {
+    max-width: 100%;
+    margin: 5%;
   }
 }
 
