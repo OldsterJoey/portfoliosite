@@ -9,22 +9,23 @@ body { /*Here I have some basic options aimed directly at the body of all my web
   }
 
 header { /*Generic options for my headers, so they all stay the same style*/
-  color: #f15d22;
+  color: #eeba30;
   font-size: 25px;
+  text-shadow: 5px 5px black;
   }
   
 /*Below is the CSS created specifically for my navbar and all related classes*/
 
   .navbar {
     overflow: hidden;
-    background-color: #3e4b60;
+    background-color: #eeba30;
     width: 100%;
   }
   
   .navbar a {
     float: left;
     display: block;
-    color: #f15d22;
+    color: black;
     text-align: center;
     padding: 22px 24px;
     text-decoration: none;
@@ -51,7 +52,7 @@ header { /*Generic options for my headers, so they all stay the same style*/
 I have inserted some javascript I found online to create a navigation button that when minimised eventually turns the 
 tabs into a fa fa bars icon that reveal the tabs when clicked or touched. Not entirely sure how it works yet, but it definitely works.*/
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     .navbar a:not(:first-child) {display: none;}
     .navbar a.icon {
       float: right;
@@ -59,7 +60,7 @@ tabs into a fa fa bars icon that reveal the tabs when clicked or touched. Not en
     }
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     .navbar.responsive {position: relative;}
     .navbar.responsive .icon {
       position: absolute;
@@ -129,12 +130,12 @@ and tackle css grid when I'm more comfortable with it.*/
 .link {
   text-decoration: none;
   font-size: 50px;
-  background-color: #9da6b3;
-  color: #f15d22;
+  background-color: #eeba30;
+  color: #000000;
   border-radius: 20%;
   padding: 3%;
   margin: 3%;
-  box-shadow: 2.5px 5px #3e4b60;
+  box-shadow: 2.5px 5px #d3a625;
 }
 
 .link:hover { /*More pseudo-classes to give my link buttons a transitional animation*/
@@ -152,6 +153,8 @@ box-shadow: 2.5px 5px black;
   justify-content: center;
   align-content: center;
   text-align: center;
+  color: #eeba30;
+  text-shadow: 5px 5px black;
 }
 
 .pheader img {
@@ -174,7 +177,7 @@ This allows all the images to be the same size without any stretching, and makes
   object-fit: cover;
   margin: 3%;
   border-radius: 5%;
-  box-shadow: 5px 10px #f15d22;
+  box-shadow: 5px 10px #d3a625;
 }
 
 /*Below is my media query designed specifically for my home page's container. Also took a lot of tweaking, 
@@ -220,23 +223,28 @@ on the font-size of the root element. I thought this would be the best choice ju
   min-height: 100%;
 }
 
+.acontainerimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .acontainer img {
-  width: 100%;
-  height: 100%;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
   display: block;
   border-radius: .8rem;
+  box-shadow: 5px 5px #d3a625;
 }
 
 .ainfo {
   width: 100%;
   max-width: 98rem;
   padding: 5rem;
-  box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2);
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: .8rem;
 }
 
 .blogdate span {
@@ -244,17 +252,23 @@ on the font-size of the root element. I thought this would be the best choice ju
   font-size: 1.6rem;
   font-weight: 600;
   margin: .5rem 0;
+  color: #eeba30;
+  text-shadow: 5px 5px black;
 }
 
 .blogtitle {
   font-size: 2.5rem;
   margin: 1.5 rem 0 2rem;
   text-transform: uppercase;
+  color: #eeba30;
+  text-shadow: 5px 5px black;
 }
 
 .blogtext {
   margin-bottom: 3rem;
   font-size: 1.4rem;
+  color: #eeba30;
+  text-shadow: 2px 2px black;
 }
 
 /* Below is my media query specifically for my blog containers*/
