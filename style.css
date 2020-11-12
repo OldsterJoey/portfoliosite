@@ -305,7 +305,13 @@ on the font-size of the root element. I thought this would be the best choice ju
 /*Below is my containers specifically for my contact page*/
 
 .ccontainer {
-  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sociallinks {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -314,10 +320,13 @@ on the font-size of the root element. I thought this would be the best choice ju
   background-color: #eeba30;
   border-radius: 50%;
   box-shadow: 10px 10px #d3a625;
+  margin: 5%;
 }
 
-.ccontainer img {
+.sociallinks img {
   margin: 50px;
+  width: 200px;
+  height: 200px;
 }
 
 .email {
@@ -326,18 +335,17 @@ on the font-size of the root element. I thought this would be the best choice ju
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: red;
+  margin: 5%;
 }
 
 .email h1 {
-  background-color: #eeba30;
   padding: 15px;
-  border-radius: 50%;
-  box-shadow: 5px 5px #d3a625;
 }
 
 .email h2 {
-  color: #eeba30;
-  text-shadow: 5px 5px black;
+  color: black;
+  text-shadow: 5px 5px #eeba30;
 }
 
 .bheader {
@@ -420,16 +428,10 @@ on the font-size of the root element. I thought this would be the best choice ju
   .binfo {
     max-width: 100%;
   }
-  .ccontainer {
-    flex-direction: column;
-    margin: 30px;
-  }
-  .ccontainer img {
-    margin: 20px;
-    width: 80%
-  }
-  .email {
-    width: 80%
+  .sociallinks img {
+    width: 150px;
+    height: 150px;
+    margin: 25px;
   }
   .email h1 {
     font-size: 25px;
