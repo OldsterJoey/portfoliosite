@@ -304,6 +304,10 @@ on the font-size of the root element. I thought this would be the best choice ju
 
 /*Below is my containers specifically for my contact page*/
 
+.contactbody {
+  height: 100vh;
+}
+
 .ccontainer {
   display: flex;
   flex-direction: column;
@@ -324,9 +328,12 @@ on the font-size of the root element. I thought this would be the best choice ju
 }
 
 .sociallinks img {
-  margin: 50px;
   width: 200px;
   height: 200px;
+}
+
+.sociallinks a {
+  margin: 50px;
 }
 
 .email {
