@@ -430,7 +430,7 @@ on the font-size of the root element. I thought this would be the best choice ju
     margin: 25px;
   }
   .email h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
