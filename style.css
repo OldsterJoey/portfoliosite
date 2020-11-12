@@ -426,17 +426,21 @@ on the font-size of the root element. I thought this would be the best choice ju
   .binfo {
     max-width: 100%;
   }
-.sociallinks a {
-  margin: 0px;
-}
-
-  .sociallinks img {
-    width: 150px;
-    height: 150px;
+  .sociallinks a {
     margin: 25px;
   }
   .email h1 {
     font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sociallinks img {
+    width: 100px;
+    height: 100px;
+  }
+  .sociallinks a {
+    margin: 30px;
   }
 }
 
