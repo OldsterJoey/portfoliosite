@@ -335,17 +335,18 @@ on the font-size of the root element. I thought this would be the best choice ju
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: red;
   margin: 5%;
 }
 
 .email h1 {
   padding: 15px;
+  color: #eeba30;
+  text-shadow: 5px 5px black;
 }
 
 .email h2 {
-  color: black;
-  text-shadow: 5px 5px #eeba30;
+  color: #eeba30;
+  text-shadow: 5px 5px black;
 }
 
 .bheader {
