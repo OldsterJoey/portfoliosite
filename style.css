@@ -221,7 +221,7 @@ and was my first real delve into formatting my own media queries. Very proud at 
 
 @media screen and (max-width: 500px) {
   .pcontainer img {
-    width: 70%;
+    width: 80%;
   }
 }
 
@@ -421,10 +421,15 @@ on the font-size of the root element. I thought this would be the best choice ju
     max-width: 100%;
   }
   .ccontainer {
+    flex-direction: column;
     margin: 30px;
   }
   .ccontainer img {
     margin: 20px;
+    width: 80%
+  }
+  .email {
+    width: 80%
   }
   .email h1 {
     font-size: 25px;
