@@ -394,8 +394,9 @@ on the font-size of the root element. I thought this would be the best choice ju
 }
 
 .binfo p {
-  font-size: 20px;
+  font-size: 18px;
   color: #eeba30;
+  text-shadow: 3px 3px black;
 }
 
 .binfo a {
