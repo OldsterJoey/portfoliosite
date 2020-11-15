@@ -14,8 +14,8 @@ header { /*Generic options for my headers, so they all stay the same style*/
   text-shadow: 5px 5px black;
   }
 
-  /*Below is my background information. It has been a struggle to try and get it optimized for all screen sizes, and I've had consistent 
-problems with unwanted empty space. It's a constant work in progress*/
+/*Below is my background information. It has been a struggle to try and get it optimized for all screen sizes, and I've had consistent 
+problems with unwanted empty space. But now that I've removed a few components and linked it directly to the html it works much better*/
 
 html {
   background-image: url("img/pawel-czerwinski-Pph9pFa9tM0-unsplash.jpg");
@@ -55,33 +55,6 @@ html {
   
   .navbar .icon {
     display: none;
-  }
-
-  
-/*Below is my media breakpoint, specifically for displaying the navbar appropriately no matter what size the screen is.
-I have inserted some javascript I found online to create a navigation button that when minimised eventually turns the 
-tabs into a fa fa bars icon that reveal the tabs when clicked or touched. Not entirely sure how it works yet, but it definitely works.*/
-
-  @media screen and (max-width: 800px) {
-    .navbar a:not(:first-child) {display: none;}
-    .navbar a.icon {
-      float: right;
-      display: block;
-    }
-  }
-  
-  @media screen and (max-width: 800px) {
-    .navbar.responsive {position: relative;}
-    .navbar.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .navbar.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
   }
 
 /*Below is my container designed specifically to nest in my flex box background on my homepage, and all of it's children. 
@@ -174,7 +147,6 @@ box-shadow: 2.5px 5px black;
 
 /*I found that the images for my projects we're much more effective and controllable when given a strict height and width. 
 This allows all the images to be the same size without any stretching, and makes my flex-wrap much more effective.*/
-
 .pcontainer img { 
   height: 300px;
   width: 400px;
@@ -184,41 +156,6 @@ This allows all the images to be the same size without any stretching, and makes
   box-shadow: 5px 10px #d3a625;
 }
 
-/*Below is my media query designed specifically for my home page. Also took a lot of tweaking, 
-and was my first real delve into formatting my own media queries. Very proud at it's accuracy to my wireframe.*/
-
-@media screen and (max-width: 1000px) {
-  .container {
-    padding: 0;
-    flex-direction: column;
-  }
-  .indexheader {
-    font-size: 15px;
-  }
-  .homeimg {
-    margin: 0;
-  }
-  .homeimg img {
-    max-width: 50%;
-  }
-  .pheader {
-    margin-top: 10px;
-  }
-  .homelinks {
-    margin: 0;
-    margin-top: 10px;
-  }
-  .homeimg {
-    margin: 0;
-  }
-  .link {
-    font-size: 30px;
-  }
-  .pcontainer img {
-    margin: 30px;
-    width: 80%;
-  }
-}
 
 /* Below are my basic containers to format my blog styled pages, along with their children. 
 In this section I played around with the measurement format 'rem', which sizes elements based 
@@ -271,25 +208,6 @@ on the font-size of the root element. I thought this would be the best choice ju
   color: #eeba30;
   text-shadow: 2px 2px black;
   text-align: center;
-}
-
-/* Below is my media query specifically for my blog containers*/
-
-@media screen and (max-width: 800px) {
-  .acontainer {
-    padding: 1rem;
-    flex-direction: column;
-  }
-  .acontainer img {
-    margin: 30px;
-    width: 80%;
-  }
-  .ainfo {
-    width: 80%;
-  }
-  .blogtext {
-    width: 80%;
-  }
 }
 
 /*Below is my containers specifically for my contact page*/
@@ -345,6 +263,8 @@ on the font-size of the root element. I thought this would be the best choice ju
   color: #eeba30;
   text-shadow: 5px 5px black;
 }
+
+/*Below are my containers specifically for my about me page*/
 
 .bheader {
   display: flex;
@@ -405,48 +325,7 @@ on the font-size of the root element. I thought this would be the best choice ju
   margin: 1%;
 }
 
-@media screen and (max-width: 800px) {
-  .bheader h1 {
-    right: 0;
-  }
-  .bheader h2 {
-    left: 0;
-    position: relative;
-    bottom: 30px;
-  }
-  .bcontainer img {
-    max-width: 50%;
-    position: relative;
-    bottom: 40px;
-  }
-  .bheader h2 {
-    left: 0;
-    position: relative;
-    bottom: 30px;
-  }
-  .binfo {
-    max-width: 100%;
-  }
-  .sociallinks a {
-    margin: 25px;
-  }
-  .email h1 {
-    font-size: 20px;
-  }
-  .contactbody {
-    height: 100vh;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .sociallinks img {
-    width: 100px;
-    height: 100px;
-  }
-  .sociallinks a {
-    margin: 30px;
-  }
-}
+/*Below are my properties for animations formatted with animate.css*/
 
 .animate__animated.animate__fadeIn {
   --animate-duration: 2s;

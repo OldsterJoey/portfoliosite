@@ -1,0 +1,127 @@
+/*Below is my media breakpoint, specifically for displaying the navbar appropriately no matter what size the screen is.
+I have inserted some javascript I found online to create a navigation button that when minimised eventually turns the 
+tabs into a fa fa bars icon that reveal the tabs when clicked or touched. Not entirely sure how it works yet, but it definitely works.*/
+
+@media screen and (max-width: 800px) {
+    .navbar a:not(:first-child) {display: none;}
+    .navbar a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .navbar.responsive {position: relative;}
+    .navbar.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navbar.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+/*Below is my media query designed specifically for my home page. Also took a lot of tweaking, 
+and was my first real delve into formatting my own media queries. Very proud at it's accuracy to my wireframe.*/
+
+@media screen and (max-width: 1000px) {
+    .container {
+      padding: 0;
+      flex-direction: column;
+    }
+    .indexheader {
+      font-size: 15px;
+    }
+    .homeimg {
+      margin: 0;
+    }
+    .homeimg img {
+      max-width: 50%;
+    }
+    .pheader {
+      margin-top: 10px;
+    }
+    .homelinks {
+      margin: 0;
+      margin-top: 10px;
+    }
+    .homeimg {
+      margin: 0;
+    }
+    .link {
+      font-size: 30px;
+    }
+    .pcontainer img {
+      margin: 30px;
+      width: 80%;
+    }
+  }
+
+  /* Below is my media query specifically for my blog containers*/
+
+@media screen and (max-width: 800px) {
+    .acontainer {
+      padding: 1rem;
+      flex-direction: column;
+    }
+    .acontainer img {
+      margin: 30px;
+      width: 80%;
+    }
+    .ainfo {
+      width: 80%;
+    }
+    .blogtext {
+      width: 80%;
+    }
+  }
+
+  /* Below is my media query specifically for my about me containers*/
+
+  @media screen and (max-width: 800px) {
+    .bheader h1 {
+      right: 0;
+    }
+    .bheader h2 {
+      left: 0;
+      position: relative;
+      bottom: 30px;
+    }
+    .bcontainer img {
+      max-width: 50%;
+      position: relative;
+      bottom: 40px;
+    }
+    .bheader h2 {
+      left: 0;
+      position: relative;
+      bottom: 30px;
+    }
+    .binfo {
+      max-width: 100%;
+    }
+    .sociallinks a {
+      margin: 25px;
+    }
+    .email h1 {
+      font-size: 20px;
+    }
+    .contactbody {
+      height: 100vh;
+    }
+  }
+
+    /* Below is my media query specifically for my blog contact page*/
+
+@media screen and (max-width: 500px) {
+    .sociallinks img {
+      width: 100px;
+      height: 100px;
+    }
+    .sociallinks a {
+      margin: 30px;
+    }
+  }
