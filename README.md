@@ -1,6 +1,6 @@
 JoeySullivan_T1A2
 
-Link to deployed site: https://keensnyder-3293e3.netlify.app/ 
+Link to deployed site: https://keen-snyder-3293e3.netlify.app/ 
 
 Link to Github Repository: https://github.com/OldsterJoey/portfoliosite
 
